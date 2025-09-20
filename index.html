@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>李尚儒 — 网页版简历</title>
+  <meta name="description" content="李尚儒 — 售前/产品经理方向，网络空间安全，本科在读，实习经历与项目成果展示。">
+  <style>
+    :root{
+      --accent:#0b74de;
+      --bg:#f4f7fb;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --radius:12px;
+      --maxw:980px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+      background:var(--bg);
+      color:#071033;
+      padding:28px;
+      -webkit-font-smoothing:antialiased;
+    }
+    .wrap{max-width:var(--maxw);margin:0 auto}
+    .card{background:var(--card);border-radius:var(--radius);box-shadow:0 10px 30px rgba(10,20,40,0.06);overflow:hidden}
+    .top{
+      display:flex;
+      gap:20px;
+      padding:28px;
+      align-items:center;
+      border-bottom:1px solid #eef2f7;
+    }
+    .avatar{
+      width:100px;height:100px;border-radius:16px;
+      background:linear-gradient(135deg,var(--accent),#6dd3ff);
+      color:white;font-weight:700;font-size:26px;display:flex;align-items:center;justify-content:center;
+      flex-shrink:0;
+    }
+    .title h1{margin:0;font-size:22px}
+    .title .sub{color:var(--muted);margin-top:6px}
+    .summary{margin-left:auto;text-align:right}
+    .tag{display:inline-block;padding:6px 10px;border-radius:999px;background:#eef6ff;color:var(--accent);font-weight:600}
+    .layout{display:grid;grid-template-columns:1fr 320px;gap:0}
+    main{padding:28px}
+    aside{background:#fbfdff;padding:28px;border-left:1px solid #f1f5f9}
+    h2{font-size:15px;margin:0 0 12px 0;color:#071033}
+    p{margin:0 0 12px 0;color:#111827;line-height:1.6}
+    .muted{color:var(--muted);font-size:14px}
+    .list{padding:0;margin:8px 0 16px 0;list-style:none}
+    .item{margin-bottom:10px}
+    .meta{color:var(--muted);font-size:13px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:#f1f8ff;color:var(--accent);padding:6px 10px;border-radius:999px;font-weight:600}
+    .timeline{border-left:2px solid #eef2f7;padding-left:14px}
+    .timeline .ev{position:relative;padding:10px 0 10px 14px}
+    .timeline .ev:before{content:"";width:10px;height:10px;border-radius:50%;background:var(--accent);position:absolute;left:-21px;top:14px}
+    .proj-title{font-weight:700}
+    .btn{
+      display:inline-block;margin-top:10px;padding:10px 14px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;
+    }
+    footer{padding:16px;text-align:center;color:var(--muted);font-size:13px}
+    @media(max-width:900px){
+      .layout{grid-template-columns:1fr}
+      aside{border-left:none;border-top:1px solid #f1f5f9}
+      .summary{text-align:left;margin-top:12px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card" id="resume">
+      <div class="top">
+        <div class="avatar">李<br>尚<br>儒</div>
+        <div class="title">
+          <h1>李尚儒 <span class="muted">· 网络空间安全 / 售前产品经理方向</span></h1>
+          <div class="sub muted">兰州理工大学 · 本科 · 网络空间安全（2022 - 2026）</div>
+          <div class="muted" style="margin-top:8px">绩点排名：3.3（专业前10-15%） · 获得多次校级奖学金与院级荣誉</div>
+        </div>
+
+        <div class="summary">
+          <div class="tag">求职意向：售前产品经理</div>
+          <div class="muted" style="margin-top:8px">期望薪资：7-8K</div>
+          <div class="muted" style="margin-top:6px">年龄：22岁</div>
+        </div>
+      </div>
+
+      <div class="layout">
+        <main>
+          <section>
+            <h2>联系方式</h2>
+            <p class="muted">电话：15337092905 · 邮箱：102111846@qq.com · 性别：男</p>
+          </section>
+
+          <section>
+            <h2>个人简介 / 优势</h2>
+            <p class="muted">
+              具备网络空间安全专业背景，熟悉信息收集、渗透测试与安全服务交付流程。性格开朗、善于沟通与表达，具备较强文档编写能力和讲解能力，对售前咨询与市场拓展充满兴趣，愿不断积累并提升专业能力。:contentReference[oaicite:1]{index=1}
+            </p>
+            <ul class="list muted">
+              <li class="item">熟悉渗透测试流程、信息收集（Google/Hunter/FOFA）与常见中间件漏洞复现。</li>
+              <li class="item">具备课程讲师与培训经验，能将技术内容转为可理解的产品/服务讲解。</li>
+              <li class="item">熟练使用常见工具；具备一定的实战交付与攻防演练经验。</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>实习 / 工作经历</h2>
+            <div class="timeline">
+              <div class="ev">
+                <div class="proj-title">杭州安恒信息技术股份有限公司 — 安全服务工程师</div>
+                <div class="meta">2025.03 — 2025.08</div>
+                <p class="muted">参与日常安全服务、渗透测试项目执行与交付、地方攻防演练支持与设备告警分析研判；发现与复现目标系统漏洞，并输出修复建议与报告。</p>
+              </div>
+
+              <div class="ev">
+                <div class="proj-title">某市直单位渗透测试 / 某单位安全培训（讲师）</div>
+                <div class="meta">2025.05（项目/培训）</div>
+                <p class="muted">承担渗透测试与安全培训工作，负责漏洞发现、复现与培训演示，提升客户安全意识与应急能力。</p>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2>项目经历（选）</h2>
+
+            <div style="margin-bottom:12px">
+              <div class="proj-title">大规模信息收集与敏感信息发现</div>
+              <div class="meta muted">工具：Google / Hunter / FOFA · 时间：2024 - 2025</div>
+              <p class="muted">通过多种信息收集手段定位后台管理入口、JS 路径泄露、OA/CMS 框架漏洞与弱口令，结合公开 POC 进行验证，获取敏感信息约 2 万条并完成若干提权流程。</p>
+            </div>
+
+            <div style="margin-bottom:12px">
+              <div class="proj-title">登录接口密钥泄露与 JS 静态分析</div>
+              <div class="meta muted">说明：通过静态审计与动态验证，发现登录接口密钥泄露与用户名枚举问题，利用 JS 加密函数进行还原验证。</div>
+            </div>
+
+            <div>
+              <div class="proj-title">渗透与演练交付</div>
+              <div class="meta muted">业绩：完成多次渗透复现并输出修复建议，参与地方攻防演练支持。</div>
+            </div>
+          </section>
+
+          <section>
+            <h2>校园经历 / 社团</h2>
+            <p class="muted"><strong>信息安全协会负责人</strong>（2023.06 - 2024.07） — 组织安全培训、布置靶场与比赛，设计并验证赛题，负责赛事公平性与题目区分度。</p>
+            <p class="muted">在校期间负责为新生讲解基础安全知识并搭建练习平台，提高同学实战能力与赛事体验。</p>
+          </section>
+
+          <section>
+            <h2>证书与荣誉</h2>
+            <ul class="list muted">
+              <li class="item">CET-4 · 多次 CTF 比赛获奖</li>
+              <li class="item">二等奖学金（2022、2023、2024） · 院级“三好学生”</li>
+            </ul>
+          </section>
+        </main>
+
+        <aside>
+          <section>
+            <h2>教育背景</h2>
+            <p class="muted">兰州理工大学 · 本科 · 网络空间安全（2022 - 2026）</p>
+            <p class="muted">主修：高等数学、概率论与数理统计、渗透测试实训、数据库系统、无线网络安全等。绩点排名：3.3（专业前10-15%）。</p>
+          </section>
+
+          <section>
+            <h2>技能标签</h2>
+            <div class="skills">
+              <span class="chip">渗透测试</span>
+              <span class="chip">信息收集</span>
+              <span class="chip">流量分析</span>
+              <span class="chip">漏洞复现</span>
+              <span class="chip">培训/讲解</span>
+              <span class="chip">Python</span>
+            </div>
+          </section>
+
+          <section>
+            <h2>实战成果速览</h2>
+            <ul class="list muted">
+              <li class="item">发现并利用多个后台与 OA/CMS 弱点；获取敏感信息约 2 万条。</li>
+              <li class="item">成功设计并完成多场安全培训与答疑。</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>快速操作</h2>
+            <a class="btn" href="#resume" onclick="window.print();return false">打印 / 保存为 PDF</a>
+          </section>
+        </aside>
+      </div>
+
+      <footer>
+        简历内容根据用户提供资料生成。如需个性化配色、深色主题、导出 PDF 的样式优化或生成 README & 部署步骤，回复我我会继续帮你完善。:contentReference[oaicite:2]{index=2}
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
